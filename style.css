@@ -1,14 +1,27 @@
-body {font-family: "vesper libre", "open sans"; 
+body {font-family: "Vesper Libre"; 
     line-height: 1.5;
     color: #1a1a1a;
     margin: 0;}
 header, footer {background-color: #000; 
     color: #fff;
-    align-content: center;
-}
+    text-align: center;}
 img {max-width: 100%;}
-.logo {width 100px;
-    padding: 8px 0;}
-img {width: 100%;
-padding: 8px;
+#logo {
+max-width: 100px;
+padding-top: 8px;
 }
+main {padding: 20px;}
+h1 {font-size :2rem; line-height: 1.3; margin: 1rem, 1rem;}
+
+.news {display: inline-block; text-transform: uppercase; font-size: 0.85rem; border-bottom: 2px solid #ff3530;}
+
+figcaption, .subtitle, .authordate, h2, .news
+{font family: "Open Sans";}
+
+.authordate {font-size: 0.85rem; margin: 0;}
+figure {margin: 1.25em 0em}
+
+figcaption {font-size: .75rem; align-content: center; color: #757575; font-style: italic;}
+ul {list-style-type: none; padding: 0;}
+a {color: #1a1a1a; text-decoration: underline;}
+a:hover {text-decoration: none; color: #ff3530;}
